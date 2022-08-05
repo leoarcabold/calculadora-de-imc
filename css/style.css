@@ -1,0 +1,24 @@
+body {
+    padding: 10px;
+    font-family: Arial, Arial, Helvetica, sans-serif;
+    background-color: lightslategray;
+}
+
+#paragraph-result {
+    margin-top: 50px;
+}
+
+input {
+    width: 150px;
+    height: 25px;
+    margin-top: 10px;
+    
+}
+
+#button-calculate-imc {
+    width: 150px;
+    height: 25px;
+    background-color: rgb(14, 235, 143);
+    border: none;
+    margin-top: 10px;
+}
