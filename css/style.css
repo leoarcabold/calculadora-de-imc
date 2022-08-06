@@ -15,10 +15,10 @@ input {
     
 }
 
-#button-calculate-imc {
+#button-calcular-imc {
     width: 150px;
     height: 25px;
     background-color: rgb(14, 235, 143);
-    border: none;
+   /* border: none;*/
     margin-top: 10px;
 }
