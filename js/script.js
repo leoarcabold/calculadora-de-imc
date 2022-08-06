@@ -3,15 +3,21 @@ function start () {
     buttonCalcularImc.addEventListener('click', handleButtonClick());
 }
 
-function calculateImc(peso, altura){
+function calcularImc(peso, altura){
     return (peso / (altura*altura));
 }
 
 function handleButtonClick() {
     var inputPeso = document.querySelector('#input-peso');
     var inputAltura = document.querySelector('#input-altura');
-console.log(inputPeso);
-console.log(inputAltura);
+    var imcResultado = document.querySelector('#imc-resultado');
+
+    var peso = Number(inputPeso.value);
+    var altura = Number(inputAltura.value);
+    var imcFormatado = toFixed(2);
+var imc = calcularImc(peso,altura);
+imcResultado.textContent = imc;
+
 }
 
  start();
