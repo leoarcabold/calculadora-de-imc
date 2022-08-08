@@ -31,14 +31,13 @@ var imc = calcularImc(peso,altura);
 
 var imcFormatado = imc.toFixed(2).replace('.',',');
 
-imcResultado.textContent = imcFormatado;
-paragrafo-tipo-imc.textContent = 
 
-classificaTipoImc();
+
+classificaTipoImc(imc);
 
 }
 
-function classificaTipoImc (imc){
+function classificaTipoImc (imc) {
 
     var validaImc = imc;
 if(imc >= 16 && imc <= 16.9){
@@ -61,6 +60,8 @@ if(imc >= 35 && imc <= 40){
 }
 if(imc > 40){
     console.log('Obesidade grau III');
+}else{
+    console.log('Valor Inválido');
 }
 
 }
