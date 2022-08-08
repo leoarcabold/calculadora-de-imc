@@ -1,15 +1,17 @@
-### IMC - Índice de Massa Corpória.
- O IMC (Índice de Massa Corporal), mais do que o peso de fato na balança, é esse o valor que importa para manter a sua qualidade de saúde. O índice em questão é bem simples e qualquer um pode calcular em casa de forma fácil. Contudo, é importante saber interpretar o resultado e entender o que de fato ele diz sobre a sua saúde.
+<img src="https://github.com/leoarcabold/calculadora-de-imc/blob/master/img/imc.jpg" height="250px" align="center" /> 
+
+### Sobre IMC - Índice de Massa Corpória.
+ O IMC (Índice de Massa Corporal), mais do que o peso de fato na balança, é o valor que importa para manter a sua qualidade de saúde. O índice em questão é bem simples e qualquer um pode calcular em casa de forma fácil. Contudo, é importante saber interpretar o resultado e entender o que de fato ele diz sobre a sua saúde.
  <p>
 Fonte:
  <img src="https://blogdojuca.uol.com.br/files/2013/04/uol.jpg" width="20px" /><a href="https://www.uol.com.br/vivabem/faq/imc-como-calcular-tabela-dicas-como-melhorar-e-mais.htm"><strong>UOL</strong></a>
  - acesso em 07/08/2022
 </p>
 
-### Objetivos
-* Desenvolver a aplicações com HTML, CSS e JavaScript.
-* Manipular o DOM com JavaScript.
-* Com o IMC calculado com base no peso e altura, determinar também a faixa que o usuário
+### Característica 
+* Aplicações web com HTML, CSS e JavaScript.
+* Manipulação de DOM com JavaScript.
+* O IMC calculado com base no peso e altura, é determinado a faixa que o usuário
 se encontra conforme a tabela abaixo:
 
 |IMC|DESCRIÇÃO|
@@ -22,9 +24,11 @@ se encontra conforme a tabela abaixo:
 |35 a 40 kg/m²|Obesidade grau II|
 |maior que 40 kg/m²|Obesidade grau III|
 
+### Como utilizar?
+Baixe o projeto para sua máquina utilizando o comando:
+> git clone
 
-
-### Tela da Aplicação
+### Demo
 <img src="https://github.com/leoarcabold/calculadora-de-umc/blob/master/img/tela.jpg" width="350px" />
 
 ### Roteiro de Desenvolvimento
