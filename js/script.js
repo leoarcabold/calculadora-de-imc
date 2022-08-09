@@ -43,12 +43,12 @@ function classificaTipoImc(imc) {
 
     if (imc < 16) {
         msgImc.innerHTML = "<strong>Valor Inválido</strong>";
-    } if (imc >= 16 && imc <= 16.9) {
+    } if (imc >= 16 && imc <= 16.99) {
         msgImc.innerHTML = "Este valor considera que você esta na faixa <strong>Muito Abaixo Do Peso</strong>";
-    } if (imc >= 17 && imc <= 18.4) {
+    } if (imc >= 17 && imc <= 18.49) {
         msgImc.innerHTML = "Este valor considera que você esta na faixa <strong>Abaixo Do Peso</strong>";
     } if (imc >= 18.5 && imc <= 24.99) {
-        msgImc.innerText = "Este valor considera que você esta na faixa <strong>Peso Normal</strong>";
+        msgImc.innerHTML = "Este valor considera que você esta na faixa <strong>Peso Normal</strong>";
     } if (imc >= 25 && imc <= 29.99) {
         msgImc.innerHTML = "Este valor considera que você esta na faixa <strong>Acima Do Peso</strong>"
     } if (imc >= 30 && imc <= 34.99) {
